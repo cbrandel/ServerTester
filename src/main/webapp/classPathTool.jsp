@@ -10,10 +10,12 @@
 %>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>ClassPath Tool</title>
 </head>
 <body>
-	<h2>classPathTool</h2>
+	<jsp:include page="_header.jsp"/>
+	<h1>classPathTool</h1>
 	<form method="post">
 		ClassName: <input type="text" name="class" value="<%=className%>"
 			size="50" /><input type="submit" name="submit" value="submit"/>

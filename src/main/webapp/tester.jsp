@@ -9,10 +9,11 @@
 <%@page import="java.util.TreeMap"%>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Server Tester</title>
 </head>
 <body>
+<jsp:include page="_header.jsp"/>
 	<h1>Server Tester</h1>
 	<h2>Request Information</h2>
 	<ul>
