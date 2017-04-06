@@ -1,12 +1,12 @@
-<%@page import="java.util.Collections"%>
+<%@ page session="false" autoFlush="true" isELIgnored="false"
+	contentType="text/html; charset=UTF-8" language="java"
+	pageEncoding="UTF-8"%>
+	<%@page import="java.util.Collections"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.Enumeration"%>
 <%@page import="java.util.Properties"%>
 <%@page import="java.util.Map"%>
 <%@page import="java.util.TreeMap"%>
-<%@ page session="false" autoFlush="true" isELIgnored="false"
-	contentType="text/html; charset=UTF-8" language="java"
-	pageEncoding="UTF-8"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
