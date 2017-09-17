@@ -24,7 +24,7 @@ request.getServletContext().setAttribute("systemProperties", System.getPropertie
 <title>Server Tester JSTL</title>
 </head>
 <body>
-<jsp:include page="_header.jsp"/>
+[<a href="index.jsp">Home</a>]
 	<h1>Server Tester JSTL</h1>
 	<h2>Forward Test</h2>
 	<form method="post">

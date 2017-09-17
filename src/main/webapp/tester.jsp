@@ -13,7 +13,7 @@
 <title>Server Tester</title>
 </head>
 <body>
-<jsp:include page="_header.jsp"/>
+[<a href="index.jsp">Home</a>]
 	<h1>Server Tester</h1>
 	<h2>Request Information</h2>
 	<ul>

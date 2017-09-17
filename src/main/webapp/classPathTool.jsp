@@ -14,7 +14,7 @@
 <title>ClassPath Tool</title>
 </head>
 <body>
-	<jsp:include page="_header.jsp"/>
+	[<a href="index.jsp">Home</a>]
 	<h1>classPathTool</h1>
 	<form method="post">
 		ClassName: <input type="text" name="class" value="<%=className%>"
