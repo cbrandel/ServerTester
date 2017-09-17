@@ -22,6 +22,9 @@
 		<li>Method: <%=request.getMethod()%></li>
 		<li>Protocol: <%=request.getProtocol()%></li>
 		<li>Scheme: <%=request.getScheme()%></li>
+		<li>ServerName: <%=request.getServerName()%></li>
+		<li>ServerPort: <%=request.getServerPort()%></li>
+		<li>isSecure: <%=request.isSecure()%></li>
 		<li>LocalAddr: <%=request.getLocalAddr()%></li>
 		<li>LocalName: <%=request.getLocalName()%></li>
 		<li>LocalPort: <%=request.getLocalPort()%></li>

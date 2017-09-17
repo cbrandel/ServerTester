@@ -37,6 +37,8 @@ request.getServletContext().setAttribute("systemProperties", System.getPropertie
 		<li>Protocol: ${pageContext.request.protocol }</li>
 		<li>Scheme: ${pageContext.request.scheme }</li>
 		<li>Method: ${pageContext.request.method }</li>
+		<li>ServerName: ${pageContext.request.serverName }</li>
+		<li>ServerPort: ${pageContext.request.serverPort }</li>
 		<li>LocalAddr: ${pageContext.request.localAddr }</li>
 		<li>LocalName: ${pageContext.request.localName }</li>
 		<li>LocalPort: ${pageContext.request.localPort }</li>
