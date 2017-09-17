@@ -14,7 +14,7 @@
 </head>
 <body>
 [<a href="index.jsp">Home</a>]
-	<h1>Server Tester</h1>
+	<h1>WebApp Tester</h1>
 	<h2>Request Information</h2>
 	<ul>
 		<li>CharacterEncoding: <%=request.getCharacterEncoding()%></li>

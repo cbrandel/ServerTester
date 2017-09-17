@@ -25,7 +25,7 @@ request.getServletContext().setAttribute("systemProperties", System.getPropertie
 </head>
 <body>
 [<a href="index.jsp">Home</a>]
-	<h1>Server Tester JSTL</h1>
+	<h1>WebApp Tester JSTL</h1>
 	<h2>Forward Test</h2>
 	<form method="post">
 	Target: <input type="text" name="target"/> Context: <input type="text" name="ctx"/>
