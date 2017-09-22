@@ -28,6 +28,8 @@
 		<li>RemoteAddr: <%=request.getRemoteAddr()%></li>
 		<li>RemoteHost: <%=request.getRemoteHost()%></li>
 		<li>RemotePort: <%=request.getRemotePort()%></li>
+		<li>RequestURI: <%=request.getRequestURI()%></li>
+		<li>RequestURL: <%=request.getRequestURL()%></li>
 	</ul>
 	<h2>Request Headers</h2>
 	<ul>
