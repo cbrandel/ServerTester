@@ -24,8 +24,8 @@ request.getServletContext().setAttribute("systemProperties", System.getPropertie
 <title>Server Tester JSTL</title>
 </head>
 <body>
-<jsp:include page="_header.jsp"/>
-	<h1>Server Tester JSTL</h1>
+[<a href="index.jsp">Home</a>]
+	<h1>WebApp Tester JSTL</h1>
 	<h2>Forward Test</h2>
 	<form method="post">
 	Target: <input type="text" name="target"/> Context: <input type="text" name="ctx"/>
@@ -37,6 +37,8 @@ request.getServletContext().setAttribute("systemProperties", System.getPropertie
 		<li>Protocol: ${pageContext.request.protocol }</li>
 		<li>Scheme: ${pageContext.request.scheme }</li>
 		<li>Method: ${pageContext.request.method }</li>
+		<li>ServerName: ${pageContext.request.serverName }</li>
+		<li>ServerPort: ${pageContext.request.serverPort }</li>
 		<li>LocalAddr: ${pageContext.request.localAddr }</li>
 		<li>LocalName: ${pageContext.request.localName }</li>
 		<li>LocalPort: ${pageContext.request.localPort }</li>

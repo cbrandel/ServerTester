@@ -7,8 +7,8 @@
 <title>Server Tester</title>
 </head>
 <body>
-	<jsp:include page="_header.jsp"/>
-	<h1>Server Tester</h1>
+	[<a href="index.jsp">Home</a>]
+	<h1>WebApp Tester</h1>
 	<ul>
 		<li><a href="tester.jsp">tester.jsp</a></li>
 		<li><a href="tester-jstl.jsp">tester-jstl.jsp</a></li>

@@ -13,8 +13,8 @@
 <title>Server Tester</title>
 </head>
 <body>
-<jsp:include page="_header.jsp"/>
-	<h1>Server Tester</h1>
+[<a href="index.jsp">Home</a>]
+	<h1>WebApp Tester</h1>
 	<h2>Request Information</h2>
 	<ul>
 		<li>CharacterEncoding: <%=request.getCharacterEncoding()%></li>
@@ -22,6 +22,9 @@
 		<li>Method: <%=request.getMethod()%></li>
 		<li>Protocol: <%=request.getProtocol()%></li>
 		<li>Scheme: <%=request.getScheme()%></li>
+		<li>ServerName: <%=request.getServerName()%></li>
+		<li>ServerPort: <%=request.getServerPort()%></li>
+		<li>isSecure: <%=request.isSecure()%></li>
 		<li>LocalAddr: <%=request.getLocalAddr()%></li>
 		<li>LocalName: <%=request.getLocalName()%></li>
 		<li>LocalPort: <%=request.getLocalPort()%></li>

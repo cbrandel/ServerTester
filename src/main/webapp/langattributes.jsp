@@ -9,7 +9,7 @@
 <title>Language Attributes</title>
 </head>
 <body>
-	<jsp:include page="_header.jsp" />
+	[<a href="index.jsp">Home</a>]
 	<h1>Language Attributes</h1>
 	<ul>
 		<li>Locale = ${pageContext.request.locale}</li>
